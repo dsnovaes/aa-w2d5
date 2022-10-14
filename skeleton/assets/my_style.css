@@ -44,7 +44,7 @@ form input[type=radio] {
     appearance: none;
     height: 27px;
     width: 27px;
-    background-image: url(assets/stars.png);
+    background-image: url(../assets/stars.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
