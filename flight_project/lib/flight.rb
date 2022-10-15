@@ -13,9 +13,7 @@ class Flight
     end
 
     def board_passenger(passenger)
-        if passenger.has_flight?(@flight_number) && !self.full?
-            @passengers << passenger
-        end
+        @passengers << passenger if passenger.has_flight?(@flight_number) && !full?
     end
 
     def list_passengers
